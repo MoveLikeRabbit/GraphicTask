@@ -4,6 +4,10 @@ import {
 import App from './App';
 import Page210812000 from "./210812000";
 import Page210812024 from "./210812024";
+import Page210812037 from "./210812037"
+import Page210812030 from "./210812030";
+import Page210812012 from "./210812012";
+import Page210812036 from "./210812036";
 
 const router = createBrowserRouter([
   {
@@ -26,6 +30,26 @@ const router = createBrowserRouter([
     path: '210812024',
     element: <Page210812024 />,
   },
+  {
+    path: '210812037',
+    element: <Page210812037 />,
+  },
+  {
+    path: '210812030',
+    element: <Page210812030 />,
+  },
+  {
+    path: '210812012',
+    element: <Page210812012 />,
+  },
+  {
+    path: '210812036',
+    element: <Page210812036 />,
+  },
+  {
+    path: '2108120000000',
+    element: <div> 210812005000000 的作业内容</div>,
+  }
 ]);
 
 export { router };
