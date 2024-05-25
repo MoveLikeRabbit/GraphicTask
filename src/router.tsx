@@ -15,14 +15,11 @@ import Page210812030 from "./210812030";
 import Page210812012 from "./210812012";
 import Page210812005 from "./210812005";
 import Page210812036 from "./210812036";
-<<<<<<< HEAD
 import Page210812034 from "./210812034";
 
-=======
 import Page210812026 from "./210812026";
 import Page210812016 from "./210812016";
 import Page210812008 from "./210812008";
->>>>>>> 966611e0ddd715b7d2dee3590d13add07ad12cc4
 const router = createBrowserRouter([
   {
     path: '/',
