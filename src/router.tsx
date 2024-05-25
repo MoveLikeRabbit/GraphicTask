@@ -4,6 +4,7 @@ import {
 import App from './App';
 import Page210812000 from "./210812000";
 import Page210812012 from "./210812012";
+import Page210812005 from "./210812005";
 
 const router = createBrowserRouter([
   {
@@ -20,7 +21,7 @@ const router = createBrowserRouter([
   },
   {
     path: '210812005',
-    element: <div> 210812005 的作业内容</div>,
+    element: <div> 210812005 胡高雪的作业内容</div>,
   },
   {
     path: '210812012',
