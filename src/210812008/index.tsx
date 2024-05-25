@@ -1,4 +1,8 @@
+import { useState } from 'react';
+// import text from './text'
+import Text from './text';
 export default () => {
+  const [task, setTask] = useState<any>(null);
     return (
       <div>
         <h1>210812008作业</h1>
@@ -8,9 +12,13 @@ export default () => {
         </a>
         <br />
   
-        <a href='https://github.com/XiIyouLi/GraphicCube2' target='_blank'>
-          threejs 立方体2
-        </a>
+        <button
+        onClick={() => {
+          setTask('cube');
+        }}
+      >
+        查看canvas立方体
+      </button>
         <br />
   
         <a href='https://github.com/XiIyouLi/GraphicBrid' target='_blank'>
@@ -32,6 +40,7 @@ export default () => {
           threejs 雪
         </a>
         <br />
+        {task === 'cube' && <Text />}
       </div>
     );
   };

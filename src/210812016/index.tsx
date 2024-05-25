@@ -3,11 +3,6 @@ export default () => {
     <div>
       <h1>210812016 作业内容</h1>
 
-      <a href='https://github.com/111yl/Cube1' target='_blank'>
-        canvas 旋转立方体作业
-      </a>
-      <br />
-
       <a href='https://github.com/111yl/bird-model' target='_blank'>
         three.js 模型加载作业
       </a>

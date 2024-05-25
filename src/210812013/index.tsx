@@ -2,7 +2,7 @@ export default () => {
     return (
         <div>
             <h1>210812013 李凤凡的作业内容</h1>
-            <a href="https://github.com/yingyinglff/RotatingCube_Webgpu" target="_blank">
+            <a href="https://github.com/yingyinglff/RotatingCube_Canvas" target="_blank">
                 canvas立方体
             </a>
             <br />
