@@ -3,11 +3,18 @@ import {
 } from 'react-router-dom';
 import App from './App';
 import Page210812000 from "./210812000";
+import Page210812039 from "./210812039"
+import Page210812024 from "./210812024";
+import Page210812013 from './210812013';
 import Page210812037 from "./210812037"
 import Page210812030 from "./210812030";
 import Page210812012 from "./210812012";
+import Page210812005 from "./210812005";
 import Page210812036 from "./210812036";
+import Page210812026 from "./210812026";
 
+import Page210812016 from "./210812016";
+import Page210812008 from "./210812008";
 const router = createBrowserRouter([
   {
     path: '/',
@@ -23,7 +30,19 @@ const router = createBrowserRouter([
   },
   {
     path: '210812005',
-    element: <div> 210812005 的作业内容</div>,
+    element: <div> 210812005 胡高雪的作业内容</div>,
+  },
+  {
+    path: '210812039',
+    element: <Page210812039 />,
+  },
+  {
+    path: '210812024',
+    element: <Page210812024 />,
+  },
+  {
+    path: '210812013',
+    element: <Page210812013 />,
   },
   {
     path: '210812037',
@@ -42,9 +61,26 @@ const router = createBrowserRouter([
     element: <Page210812036 />,
   },
   {
+    path: '210812026',
+    element: <Page210812026 />,
+  },
+    {
+    path: '210812016',
+    element: <Page210812016 />
+  },
+  {
+    path: '210812008',
+    element: <Page210812008 />
+  },
+  {
     path: '2108120000000',
     element: <div> 210812005000000 的作业内容</div>,
-  }
+  },
+  {
+    path:'210812005',
+    element:<Page210812005 />
+  },
 ]);
 
 export { router };
+
