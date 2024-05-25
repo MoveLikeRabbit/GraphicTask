@@ -34,6 +34,8 @@ export default () => {
           <a href="./src/210812037/Three-Demo/index3.html" target='_blank'>鹦鹉</a>
           <br />
           <a href="./src/210812037/Three-Demo/index4.html" target='_blank'>阴影</a>
+          <br />
+          <a href="./src/210812037/Three-Demo/index5.html" target='_blank'>CUBE</a>
         </div>
       </div>
       <br />
