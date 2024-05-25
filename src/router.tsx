@@ -5,7 +5,7 @@ import App from './App';
 import Page210812000 from "./210812000";
 import Page210812024 from "./210812024";
 import Page210812013 from './210812013';
-import Page210812037 from "./210812037";
+import Page210812037 from "./210812037"
 import Page210812030 from "./210812030";
 import Page210812012 from "./210812012";
 import Page210812005 from "./210812005";
