@@ -1,10 +1,10 @@
 import * as THREE from 'three';
 const vertices = [];
 function getTexture(){
-    var texture1=new THREE.TextureLoader().load("./src/assets/1.png");
-    var texture2=new THREE.TextureLoader().load("./src/assets/2.png");
-    var texture3=new THREE.TextureLoader().load("./src/assets/3.png");
-    var texture4=new THREE.TextureLoader().load("./src/assets/4.png");
+    var texture1=new THREE.TextureLoader().load("./src/assets/10.png");
+    var texture2=new THREE.TextureLoader().load("./src/assets/10.png");
+    var texture3=new THREE.TextureLoader().load("./src/assets/10.png");
+    var texture4=new THREE.TextureLoader().load("./src/assets/10.png");
     for ( let i = 0; i < 10000; i ++ ) {
 
         const x = Math.random() * 2000 - 1000;

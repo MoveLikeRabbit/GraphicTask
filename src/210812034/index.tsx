@@ -27,7 +27,7 @@ export default () => {
         雪花粒子效果
       </a>
       <br/>
-      <a href='https://github.com/luisrenren/modelthree' target='_blank'>
+      <a href='https://github.com/zyy1234546/5' target='_blank'>
        模型动画
       </a>
       <br/>
