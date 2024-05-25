@@ -23,7 +23,7 @@ export default () => {
       >
         查看canvas cube
       </button>
-      <a href='github地址' target='_blank'>
+      <a href='./src/210812035\vite-project\index.html' target='_blank'>
         three.js 模型加载作业
       </a>
       <a href='https://github.com/MoveLikeRabbit/3DScene' target='_blank'>
