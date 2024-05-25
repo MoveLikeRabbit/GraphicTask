@@ -9,6 +9,7 @@ import Page210812037 from "./210812037"
 import Page210812030 from "./210812030";
 import Page210812012 from "./210812012";
 import Page210812036 from "./210812036";
+import Page210812026 from "./210812026";
 
 const router = createBrowserRouter([
   {
@@ -49,6 +50,10 @@ const router = createBrowserRouter([
   {
     path: '210812036',
     element: <Page210812036 />,
+  },
+  {
+    path: '210812026',
+    element: <Page210812026 />,
   },
   {
     path: '2108120000000',
