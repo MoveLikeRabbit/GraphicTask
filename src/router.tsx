@@ -29,10 +29,6 @@ const router = createBrowserRouter([
     element: <div> 210812002210812002的作业内容</div>,
   },
   {
-    path: '210812005',
-    element: <div> 210812005 胡高雪的作业内容</div>,
-  },
-  {
     path: '210812039',
     element: <Page210812039 />,
   },
