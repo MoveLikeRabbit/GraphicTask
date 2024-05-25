@@ -7,7 +7,8 @@ export default () => {
         <title>3Dbox</title>
         <style>
              .container {
-                perspective: 500px;   
+                perspective: 500px;  
+                margin: 50px; 
             }
             .box {
                 margin: 0 auto;
