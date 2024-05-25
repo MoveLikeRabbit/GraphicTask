@@ -1,12 +1,11 @@
 import {
   createBrowserRouter,
-} from 'react-router-dom'; 
-import App from './App';
+} from 'react-router-dom';
 import Page210812000 from "./210812000";
-import Page210812016 from "./210812016";
 import Page210812024 from "./210812024";
 import Page210812013 from './210812013';
-import Page210812037 from "./210812037";
+import App from './App';
+import Page210812037 from "./210812037"
 import Page210812030 from "./210812030";
 import Page210812012 from "./210812012";
 import Page210812036 from "./210812036";
@@ -29,13 +28,9 @@ const router = createBrowserRouter([
     element: <div> 210812005 的作业内容</div>,
   },
   {
-    path: '210812016',
-    element: <Page210812016 />,
-  },
-  {
     path: '210812024',
-    element: <Page210812024 />
-  }, {
+    element: <Page210812024 />,
+  },{
     path: '210812013',
     element: <Page210812013 />,
   },
