@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>时钟</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+        .clock-container {
+            width: 400px;
+            height: 400px;
+            background-color: #ddd;
+            border-radius: 50%;
+            margin: 100px auto;
+            position: relative;
+            border: 10px solid #000;
+        }
+        canvas {
+            display: block;
+            margin: auto;
+            border-radius: 50%;
+        }
+        .hour-markers {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            transform: rotate(-30deg);
+            transform-origin: 50% 50%;
+        }
+        .hour-marker {
+            position: absolute;
+            width: 4px;
+            height: 12px;
+            background-color: #000;
+            transform-origin: bottom;
+        }
+    </style>
+</head>
+<body>
+<div class="clock-container">
+    <canvas id="clock" width="400" height="400"></canvas>
+</div>
+<script>
+    var canvas = document.getElementById('clock');
+    var ctx = canvas.getContext('2d');
+    var radius = canvas.width / 2;
+
+    function drawClock() {
+        // Clear canvas
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+        // Draw outer circle
+        ctx.beginPath();
+        ctx.arc(radius, radius, radius - 5, 0, Math.PI * 2);
+        ctx.strokeStyle = '#000';
+        ctx.lineWidth = 10;
+        ctx.stroke();
+        ctx.closePath();
+
+        // Draw hour markers
+        ctx.lineWidth = 4;
+        for (var i = 0; i < 12; i++) {
+            var angle = (i * 30) * Math.PI / 180;
+            var x1 = radius + (radius - 20) * Math.cos(angle);
+            var y1 = radius + (radius - 20) * Math.sin(angle);
+            var x2 = radius + (radius - 35) * Math.cos(angle);
+            var y2 = radius + (radius - 35) * Math.sin(angle);
+
+            ctx.beginPath();
+            ctx.moveTo(x1, y1);
+            ctx.lineTo(x2, y2);
+            ctx.stroke();
+            ctx.closePath();
+        }
+
+        // Get current time
+        var now = new Date();
+        var hours = now.getHours() % 12;
+        var minutes = now.getMinutes();
+        var seconds = now.getSeconds();
+
+        // Draw hour hand
+        var hourAngle = (hours * 30 + (minutes / 60) * 30) * Math.PI / 180;
+        drawHand(hourAngle, radius - 100, 8);
+
+        // Draw minute hand
+        var minuteAngle = (minutes * 6 + (seconds / 60) * 6) * Math.PI / 180;
+        drawHand(minuteAngle, radius - 60, 5);
+
+        // Draw second hand
+        var secondAngle = (seconds * 6) * Math.PI / 180;
+        drawHand(secondAngle, radius - 30, 2);
+    }
+
+    function drawHand(angle, length, width) {
+        var x = radius + length * Math.cos(angle);
+        var y = radius + length * Math.sin(angle);
+
+        ctx.beginPath();
+        ctx.moveTo(radius, radius);
+        ctx.lineTo(x, y);
+        ctx.strokeStyle = '#f00';
+        ctx.lineWidth = width;
+        ctx.stroke();
+        ctx.closePath();
+    }
+
+    // Update clock every second
+    setInterval(drawClock, 1000);
+
+    // Initial draw
+    drawClock();
+</script>
+</body>
+</html>
