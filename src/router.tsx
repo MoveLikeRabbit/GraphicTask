@@ -3,9 +3,7 @@ import {
 } from 'react-router-dom';
 import App from './App';
 import Page210812000 from "./210812000";
-<<<<<<< HEAD
 import Page210812014 from "./210812014"
-=======
 import Page210812039 from "./210812039"
 import Page210812024 from "./210812024";
 import Page210812013 from './210812013';
@@ -15,8 +13,6 @@ import Page210812012 from "./210812012";
 import Page210812005 from "./210812005";
 import Page210812036 from "./210812036";
 import Page210812026 from "./210812026";
->>>>>>> 8287b050fe0d974656095481b68b568221faf0f7
-
 import Page210812016 from "./210812016";
 import Page210812008 from "./210812008";
 const router = createBrowserRouter([

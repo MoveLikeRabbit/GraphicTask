@@ -22,7 +22,8 @@ export default () => {
       >
         查看canvas cube
       </button>
-      <br></br>
+      <br>
+      </br>
       <a href='https://github.com/Duyize0112/earth' target='_blank'>
          地球仪作业
       </a>
