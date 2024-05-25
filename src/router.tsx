@@ -12,6 +12,8 @@ import Page210812012 from "./210812012";
 import Page210812036 from "./210812036";
 import Page210812026 from "./210812026";
 
+import Page210812016 from "./210812016";
+import Page210812008 from "./210812008";
 const router = createBrowserRouter([
   {
     path: '/',
@@ -36,7 +38,7 @@ const router = createBrowserRouter([
   {
     path: '210812024',
     element: <Page210812024 />,
-  },{
+  }, {
     path: '210812013',
     element: <Page210812013 />,
   },
@@ -60,10 +62,18 @@ const router = createBrowserRouter([
     path: '210812026',
     element: <Page210812026 />,
   },
+    {
+    path: '210812016',
+    element: <Page210812016 />
+  },
+  {
+    path: '210812008',
+    element: <Page210812008 />
+  },
   {
     path: '2108120000000',
     element: <div> 210812005000000 的作业内容</div>,
-  }
+  },
 ]);
 
 export { router };
