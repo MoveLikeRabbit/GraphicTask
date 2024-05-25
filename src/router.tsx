@@ -36,6 +36,10 @@ const router = createBrowserRouter([
     path: '210812036',
     element: <Page210812036 />,
   },
+  {
+    path: '2108120000000',
+    element: <div> 210812005000000 的作业内容</div>,
+  }
 ]);
 
 export { router };
