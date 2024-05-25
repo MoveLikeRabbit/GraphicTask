@@ -27,15 +27,13 @@ export default () => {
       <div id='box'>
         <h3>three.js 模型加载作业</h3>
         <div id='work'>
-          <a href='./src/210812037/Three-Demo/index1.html' target='_blank'>雪花</a>
+          <a href="https://github.com/100122222222/map" target='_blank'>地图</a>
           <br />
-          <a href="./src/210812037/Three-Demo/index2.html" target='_blank'>地图</a>
+          <a href="https://github.com/100122222222/birds" target='_blank'>鹦鹉</a>
           <br />
-          <a href="./src/210812037/Three-Demo/index3.html" target='_blank'>鹦鹉</a>
+          <a href="https://github.com/100122222222/shadow" target='_blank'>阴影</a>
           <br />
-          <a href="./src/210812037/Three-Demo/index4.html" target='_blank'>阴影</a>
-          <br />
-          <a href="./src/210812037/Three-Demo/index5.html" target='_blank'>CUBE</a>
+          <a href="https://github.com/100122222222/cube" target='_blank'>CUBE</a>
         </div>
       </div>
       <br />
