@@ -30,10 +30,7 @@ export default () => {
       <a href='https://github.com/zyy1234546/5' target='_blank'>
        模型动画
       </a>
-      <br/>
-      <a href='https://github.com/MoveLikeRabbit/3DScene' target='_blank'>
-       平时作业（总）
-      </a>
+      
       {task === 'cube' && <Cube />}
     </div>
   );
