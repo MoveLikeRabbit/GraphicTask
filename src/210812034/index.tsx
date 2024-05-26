@@ -32,7 +32,7 @@ export default () => {
       </a>
       <br/>
       <a href='https://github.com/MoveLikeRabbit/3DScene' target='_blank'>
-        游戏场景大作业
+       平时作业（总）
       </a>
       {task === 'cube' && <Cube />}
     </div>
