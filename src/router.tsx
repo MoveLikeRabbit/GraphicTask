@@ -15,10 +15,19 @@ import Page210812012 from "./210812012";
 import Page210812005 from "./210812005";
 import Page210812036 from "./210812036";
 import Page210812034 from "./210812034";
+<<<<<<< HEAD
 import Page210812026 from "./210812026";
 import Page210812016 from "./210812016";
 import Page210812008 from "./210812008";
 
+=======
+
+import Page210812023 from "./210812023";
+import Page210812026 from "./210812026";
+import Page210812016 from "./210812016";
+import Page210812008 from "./210812008";
+import Page210812007 from "./210812007";
+>>>>>>> 84c21011bbffdc24f5491b3d1d1b7f5365e96e3a
 const router = createBrowserRouter([
   {
     path: '/',
@@ -35,6 +44,10 @@ const router = createBrowserRouter([
   {
     path: '210812039',
     element: <Page210812039 />,
+  },
+  {
+    path: '210812023',
+    element: <Page210812023 />,
   },
   {
     path: '210812024',
@@ -62,9 +75,14 @@ const router = createBrowserRouter([
   },
   {
     path: '210812034',
+<<<<<<< HEAD
     element: <Page210812034 />,
   },
   {
+=======
+    element: <Page210812034 />,},
+    {
+>>>>>>> 84c21011bbffdc24f5491b3d1d1b7f5365e96e3a
     path: '210812026',
     element: <Page210812026 />,
   },
@@ -74,7 +92,12 @@ const router = createBrowserRouter([
   },
   {
     path: '210812008',
+<<<<<<< HEAD
     element: <Page210812008 />,
+=======
+    element: <Page210812008 />
+
+>>>>>>> 84c21011bbffdc24f5491b3d1d1b7f5365e96e3a
   },
   {
     path: '2108120000000',
@@ -90,6 +113,7 @@ const router = createBrowserRouter([
   },
   {
     path: '210812015',
+<<<<<<< HEAD
     element: <Jin210812015 />,
    }
   //  ,
@@ -97,6 +121,17 @@ const router = createBrowserRouter([
   //   path: '210812035',
   //   element: <Page210812035 />,
   // }
+=======
+    element: <Jin210812015 />
+  },
+  {
+    path: '210812035',
+    element: <Page210812035 />,
+  },{
+    path:'210812007', 
+    element:<Page210812007 />,
+  }
+>>>>>>> 84c21011bbffdc24f5491b3d1d1b7f5365e96e3a
 ]);
 
 export { router };
