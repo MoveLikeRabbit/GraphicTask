@@ -22,6 +22,7 @@ import Page210812026 from "./210812026";
 import Page210812016 from "./210812016";
 import Page210812008 from "./210812008";
 import Page210812007 from "./210812007";
+import Page210812022 from "./210812022";
 
 const router = createBrowserRouter([
   {
@@ -113,6 +114,9 @@ const router = createBrowserRouter([
   },{
     path:'210812007', 
     element:<Page210812007 />,
+  },{
+    path:'210812022', 
+    element:<Page210812022 />,
   }
 
 ]);
