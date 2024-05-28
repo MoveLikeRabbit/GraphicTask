@@ -36,7 +36,7 @@ export default () => {
        飞鸟模型+阴影投射作业
       </a>
       <br></br>
-      <a href='https://github.com/MoveLikeRabbit/3DScene' target='_blank'>
+      <a href='https://github.com/ZZhang0301/3DScene' target='_blank'>
         游戏场景大作业
       </a>
       {task === 'clock' && <Clock />}

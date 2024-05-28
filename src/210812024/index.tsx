@@ -46,7 +46,7 @@ export default () => {
         灯光投影
       </a>
       <a
-        href='https://github.com/MoveLikeRabbit/3DScene'
+        href='https://github.com/ZZhang0301/3DScene'
         target='_blank'
         style={{ display: 'block', marginBottom: '10px' }}
       >
