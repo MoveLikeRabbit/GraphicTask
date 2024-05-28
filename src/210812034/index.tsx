@@ -30,6 +30,11 @@ export default () => {
       <a href='https://github.com/zyy1234546/5' target='_blank'>
        模型动画
       </a>
+      <br/>
+      <br/>
+      <a href='https://github.com/zyy1234546/dzuoye' target='_blank'>
+       期末大作业
+      </a>
       
       {task === 'cube' && <Cube />}
     </div>
