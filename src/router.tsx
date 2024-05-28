@@ -15,7 +15,7 @@ import Page210812012 from "./210812012";
 import Page210812005 from "./210812005";
 import Page210812036 from "./210812036";
 import Page210812034 from "./210812034";
-
+import Page210812002 from "./210812002";
 import Page210812035 from "./210812035";
 import Page210812023 from "./210812023";
 import Page210812026 from "./210812026";
@@ -125,6 +125,9 @@ const router = createBrowserRouter([
   },{
     path:'210812028', 
     element:<Page210812028 />,
+  },{
+    path:'210812002',
+    element:<Page210812002 />
   }
 
 ]);
