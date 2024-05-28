@@ -34,6 +34,9 @@ export default () => {
       <a href='https://github.com/xqsxmn/qhhhh' target='_blank'>
         three.js 模型动画
       </a>
+      <a href='https://github.com/xqsxmn/qmdzy' target='_blank'>
+        游戏场景大作业
+      </a>
       {task === 'clock' && <Clock />}
       {task === 'cube' && <Cube />}
     </div>
