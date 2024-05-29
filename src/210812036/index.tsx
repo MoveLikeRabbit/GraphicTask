@@ -21,7 +21,7 @@ export default () => {
         其他平时作业three.js
       </a>
       <br></br>
-      <a href='https://github.com/MoveLikeRabbit/3DScene' target='_blank'>
+      <a href='https://github.com/luisrenren/groupwork' target='_blank'>
         游戏场景大作业
       </a>
       {task === 'clock' && <Clock />}

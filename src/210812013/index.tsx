@@ -2,7 +2,7 @@ export default () => {
     return (
         <div>
             <h1>210812013 李凤凡的作业内容</h1>
-            <a href="https://github.com/yingyinglff/RotatingCube_Webgpu" target="_blank">
+            <a href="https://github.com/yingyinglff/RotatingCube_Canvas" target="_blank">
                 canvas立方体
             </a>
             <br />
@@ -25,6 +25,10 @@ export default () => {
             <a href="https://github.com/yingyinglff/Shadow" target="_blank">
                 阴影
             </a>
+            <br />
+             <a href="https://pan.baidu.com/s/1f0gT-boQyGLn2cLC8eKFtQ?pwd=stuo " target="_blank">
+            游戏模型大作业（210812008朱思颖 210812013李凤凡 210812016冯培培 210812022张雨晴）
+             </a>
         </div>
     );
 };

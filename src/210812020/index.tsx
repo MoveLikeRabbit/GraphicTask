@@ -6,7 +6,7 @@ export default () => {
   const [task, setTask] = useState<any>(null);
   return (
     <div style={{margin:'20px'}}>
-      <h1>210812024</h1>
+      <h1>210812020</h1>
       <button
         style={{ display: 'block', marginBottom: '10px' }}
         onClick={() => {
@@ -25,26 +25,20 @@ export default () => {
         查看canvas cube
       </button>
       <a
-        href='https://github.com/ZZhang0301/0525/tree/main'
+        href='https://github.com/pyfpyfpyfw/pyf-demo'
         target='_blank'
         style={{ display: 'block', marginBottom: '10px' }}
       >
-        地球仪
+        投影
       </a>
       <a
-        href='https://github.com/ZZhang0301/bird'
+        href='https://github.com/pyfpyfpyfw/birds'
         target='_blank'
         style={{ display: 'block', marginBottom: '10px' }}
       >
         bird模型
       </a>
-      <a
-        href='https://github.com/ZZhang0301/shadow'
-        target='_blank'
-        style={{ display: 'block', marginBottom: '10px' }}
-      >
-        灯光投影
-      </a>
+      
       <a
         href='https://github.com/ZZhang0301/3DScene'
         target='_blank'

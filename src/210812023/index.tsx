@@ -1,6 +1,5 @@
 import { useState } from 'react';
-import 3DBox from './3DBox';
-import Clock from './clock';
+import Box from './3DBox';
 import Cube from './cube';
 
 export default () => {
@@ -10,18 +9,13 @@ export default () => {
             <h1>210812023 刘若彤平时作业</h1>
             <button
                 onClick={() => {
-                    setTask('3DBox');
+                    setTask('Box');
                 }}
             >
                 查看3DBox
             </button>
-            <button
-                onClick={() => {
-                    setTask('clock');
-                }}
-            >
-                查看canvas钟表
-            </button>
+
+
 
             <button
                 onClick={() => {
@@ -30,21 +24,16 @@ export default () => {
             >
                 查看canvas cube
             </button>
-            
-                three.js 实现cube
-            <a href="./210812023/three-demo/global.html"></a>
-                three.js 带贴图的地球仪
-            
-            
-                three.js 雪花粒子效果
-            
-            
-                three.js 模型动画
-            
-            
-                游戏场景大作业
-            {task === '3DBox' && <3DBox />}
-            {task === 'clock' && <Clock />}
+
+            <a href='https://github.com/AkariiiCBI/Bird ' target='_blank'>
+                鸟飞行模型
+            </a >
+
+            <a href='https://github.com/AkariiiCBI/shadow-Snowflake-cube ' target='_blank'>
+                阴影、方块、雪花
+            </a >
+            游戏场景大作业
+            {task === 'Box' && <Box />}
             {task === 'cube' && <Cube />}
         </div>
     );

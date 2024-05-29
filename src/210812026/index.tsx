@@ -28,7 +28,9 @@ export default () => {
       <a href='https://github.com/bingmeishi03/fifth' target='_blank'>
       第五个作业
       </a>
-     
+      <a href='https://github.com/luisrenren/groupwork' target='_blank'>
+        游戏场景大作业
+      </a>
       
       {task === 'clock' && <Clock />}
       {task === 'cube' && <Cube />}
