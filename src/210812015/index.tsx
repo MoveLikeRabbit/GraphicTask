@@ -41,9 +41,10 @@ export default () => {
         <a href='https://github.com/Gululu-lu/Gulululu/tree/master' target='_blank'>
           作业合集（粒子、飞鸟、贴图等）
         </a>
-        <a href='https://github.com/MoveLikeRabbit/3DScene' target='_blank'>
-          游戏场景大作业
+        <a href='https://github.com/Gululu-lu/Gulululu/tree/master' target='_blank'>
+          期末大作业
         </a>
+
       </div>
       <div className="content">
         {task === 'clock' && <Clock />}
