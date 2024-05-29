@@ -24,6 +24,9 @@ export default () => {
             <a href='https://github.com/yxx021224/yuanzhu' target='_blank'>
                 圆柱阴影作业
             </a>
+            <a href='https://github.com/lingxiaojust/HomeWork0525' target='_blank'>
+                场景大作业
+            </a>
             {task === 'cube' && <Cube />}
         </div>
     )
